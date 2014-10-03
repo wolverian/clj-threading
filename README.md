@@ -1,6 +1,7 @@
 # clj-threading
 
-This package provides the `->` and `->>` macros to thread expressions.
+This package provides the `->` and `->>` macros to thread
+expressions. See http://clojuredocs.org/clojure.core/-%3E.
 
 ## Installation
 
