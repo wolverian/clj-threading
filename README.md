@@ -1,5 +1,7 @@
 # clj-threading
 
+[![Build Status](https://travis-ci.org/wolverian/clj-threading.svg?branch=master)](https://travis-ci.org/wolverian/clj-threading)
+
 This package provides the `->` and `->>` macros to thread
 expressions. See http://clojuredocs.org/clojure.core/-%3E.
 
