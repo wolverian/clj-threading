@@ -1,4 +1,7 @@
-install: sudo apt-get install racket
+install:
+  - wget http://mirror.racket-lang.org/installers/6.1/racket-6.1-x86_64-linux-ubuntu-precise.sh
+  - chmod +x racket-6.1-x86_64-linux-ubuntu-precise.sh
+  - ./racket-6.1-x86_64-linux-ubuntu-precise.sh --in-place --dest racket-6.1
 script:
-  - raco test .
-  - raco pkg install
+  - racket-6.1/bin/raco test .
+  - racket-6.1/bin/raco pkg install
