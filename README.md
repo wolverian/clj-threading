@@ -35,6 +35,13 @@ With `->`:
 
     raco test .
 
+## See Also
+
+- The [rackjure](https://github.com/greghendershott/rackjure/) package
+  implements
+  [similar macros](http://pkg-build.racket-lang.org/doc/rackjure/index.html#%28part._.Threading_macros%29)
+  as `~>` and `~>>`, which do not conflict with Typed Racket.
+
 ## License
 
 clj-threading is available under the ISC license. See the LICENSE file
