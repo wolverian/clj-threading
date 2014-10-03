@@ -37,10 +37,13 @@ With `->`:
 
 ## See Also
 
-- The [rackjure](https://github.com/greghendershott/rackjure/) package
-  implements
-  [similar macros](http://pkg-build.racket-lang.org/doc/rackjure/index.html#%28part._.Threading_macros%29)
-  as `~>` and `~>>`, which do not conflict with Typed Racket.
+- The [rackjure][] package implements
+  [similar macros][rackjure-macros] as `~>` and `~>>`, which do not
+  conflict with Typed Racket.
+
+[rackjure]: https://github.com/greghendershott/rackjure
+
+[rackjure-macros]: http://pkg-build.racket-lang.org/doc/rackjure/index.html#%28part._.Threading_macros%29
 
 ## License
 
