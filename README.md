@@ -35,7 +35,7 @@ With `->`:
 
     raco test .
 
-## See Also
+## See also
 
 - The [rackjure][] package implements
   [similar macros][rackjure-macros] as `~>` and `~>>`, which do not
